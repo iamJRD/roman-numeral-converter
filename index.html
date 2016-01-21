@@ -8,9 +8,23 @@
 
     <script src="js/jquery-1.12.0.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Roman Numeral Converter</title>
   </head>
   <body>
+    <div class="container">
+      <h1>Roman Numeral Converter</h1>
+      
+      <form id="romanForm">
+        <div class="form-group">
+            <label for="numInput">Enter a number to convert to Roman Numerals:</label>
+            <input id="numInput" type="number" placeholder="Ex: 35">
+        </div>
+        <button type="submit" class="btn btn-danger">Convert Me!</button>
+      </form>
+    </div>
 
+    <div class="container finalConversion">
+      <p id="results"></p>
+    </div>
   </body>
 </html>
