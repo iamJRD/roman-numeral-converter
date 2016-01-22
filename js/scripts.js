@@ -12,10 +12,11 @@ var toArray = function(userInput){
   console.log(userInput);
   console.log(splitableNumber);
   var splitNumber = splitableNumber.split("");
-
-  return splitNumber;
+  var splitNumberReverse = splitNumber.reverse();
+  return splitNumberReverse;
 }
 
+// var placeValues = function(splitNumberR){}
 
 
 
